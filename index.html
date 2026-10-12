@@ -1,1 +1,56 @@
+<style>
+    @font-face { font-family: 'HakgyoansimDunggeunmisoTTF-B'; src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-5@1.0/HakgyoansimDunggeunmisoTTF-B.woff2') format('woff2'); font-weight: 700; font-style: normal;} @font-face { font-family: 'HakgyoansimDunggeunmisoTTF-R'; src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-5@1.0/HakgyoansimDunggeunmisoTTF-R.woff2') format('woff2'); font-weight: normal; font-style: normal;} @font-face { font-family: 'GmarketSansMedium'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff'); font-weight: normal; font-style: normal;}
+</style>
+<style>
+    details { text-align: center; margin: 10px auto; max-width: 1180px; font-size: 16px; } summary::marker { display: none; } summary img { max-width: 100%; border-radius: 0px; transition: all 0.3s ease; cursor: pointer; } /* 첫 번째 이미지: 닫혀 있을 때만 표시 */ details:not([open]) summary img:nth-of-type(1) { display: inline; } /* 카테고리를 누를 때 투명도 조절 */ details:not([open]) summary:hover img:nth-of-type(1) { opacity: 0.5; } /* 두 번째 이미지: 열렸을 때만 표시 */ details[open] summary img:nth-of-type(1) { display: none; } /* 카테고리 투명도2 */ details[open] summary:hover img:nth-of-type(2) { opacity: 0.5; } details:not([open]) summary img:nth-of-type(2) { display: none; } details[open] summary img:nth-of-type(2) { display: inline; } /* detail 내용 애니메이션 */ details[open] div { animation: fadeIn 1s ease; } @keyframes fadeIn { from { opacity: 0; transform: translateY(-10px); } to { opacity: 1; transform: translateY(0); } }
+</style>
+<div>
+    <br>
+</div>
+<br>
+<div><img src="https://github.com/hongsy041/-/blob/main/asset/%EC%83%81%EB%8B%A8.png?raw=true" border="0" width="1180">
+    <br>
+</div>
+<div>
+    <br>
+</div>
 
+<details>
+    <summary> <img src="https://github.com/hongsy041/-/blob/main/asset/%EC%9E%91%EA%B0%80%EC%86%8C%EA%B0%9C2.png?raw=true" alt="원본 이미지"> <img src="https://github.com/hongsy041/-/blob/main/asset/%EC%9E%91%EA%B0%80%EC%86%8C%EA%B0%9C1.png?raw=true" alt="바뀐 이미지"> </summary>
+    <div> <a name="0"><font color="#ffffff" size="0px">----------1작가소개----------</font></a>
+        <br> <img src="https://github.com/hongsy041/-/blob/main/asset/%EC%9E%91%EA%B0%80%EC%86%8C%EA%B0%9C%20%EB%82%B4%EC%9A%A9.png?raw=true" alt="이미지1">
+    </div>
+</details>
+
+<details>
+    <summary> <img src="https://github.com/hongsy041/-/blob/main/asset/%EC%95%88%EB%82%B4%EC%82%AC%ED%95%AD2.png?raw=true" alt="원본 이미지"> <img src="https://github.com/hongsy041/-/blob/main/asset/%EC%95%88%EB%82%B4%EC%82%AC%ED%95%AD1.png?raw=true" alt="바뀐 이미지"> </summary>
+    <div> <a name="0"><font color="#ffffff" size="0px">----------2안내사항----------</font></a>
+        <br> <img src="https://github.com/hongsy041/-/blob/main/asset/%EC%95%88%EB%82%B4%EC%82%AC%ED%95%AD%20%EB%82%B4%EC%9A%A9.png?raw=true" alt="이미지1">
+    </div>
+</details>
+
+
+<script>
+    setTimeout(function() {
+      const imgPop = document.getElementById('imgPop'); /* 이미지 팝업코드 삭제 */
+      if (imgPop) {
+        imgPop.remove();
+      }
+    }, 1000);
+</script>
+<style>
+    summary {
+      list-style: none;         /* 기본 목록 기호 제거 */
+      cursor: pointer;          /* 클릭 가능한 느낌을 유지하고 싶다면 */
+    }
+
+    details summary::-webkit-details-marker {
+      display: none;            /* WebKit 기반 브라우저 (Chrome, Safari)에서 화살표 제거 */
+    }
+</style>
+<style>
+  body {
+    background-image: url('https://github.com/hongsy041/-/blob/main/asset/%EC%A0%9C%EB%AA%A9%20%EC%97%86%EC%9D%8C-3.png?raw=true');
+    background-repeat: repeat;
+  }
+</style>
